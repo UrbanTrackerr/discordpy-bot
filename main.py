@@ -22,5 +22,5 @@ async def ping(ctx):
 async def hello(ctx):
     await ctx.send("Choo choo! 🚅")
 
-
-bot.run(os.environ["DISCORD_TOKEN"])
+Cosmo = "NzM1NDE4NzU4Nzg4ODA4NzY2.GDfqTu.6UZJnKu9Yxwa52d8uHdynLIwCLXvtKXjPlTJnI"
+bot.run(Cosmo)
