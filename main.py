@@ -7,7 +7,7 @@ from discord.ext import commands
 
 intents = discord.Intents.default()
 intents.message_content = True
-bot = commands.Bot(command_prefix='!', intents=intents)
+bot = commands.Bot(command_prefix='>', intents=intents, self_bot =True)
 
 
 @bot.event
@@ -16,7 +16,7 @@ async def on_ready():
 
 @bot.command()
 async def ping(ctx):
-    await ctx.send('pong')
+    await ctx.send('i hate niggers')
 
 @bot.command()
 async def hello(ctx):
